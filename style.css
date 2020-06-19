@@ -1,134 +1,126 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Atomic+Age|Permanent+Marker|Monoton|Pacifico|Fascinate&display=swap");
 
-body, html {
+body,
+html {
   height: 100%;
   text-align: center;
   background-color: black;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
-  margin: 0;
-  text-shadow: 100%;
 }
 
 .fixit {
   overflow: hidden;
   background-color: #333;
-  position: fixed; 
-  top: 0; 
-  width: 100%; 
-
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-.navbar_color{
+.navbar_color {
   background-color: black;
 }
 
-.navbar_line{
+.navbar_line {
   border: solid 0.5px white;
 }
 
-
-.nav_right{
+.nav_right {
   text-align: right;
   margin-left: auto;
   font-size: 20px;
 }
+.nav_right {
+  margin-left: 16em;
+}
 
-.index{
-  
+.index {
   height: 100%;
-  background-image: url("images/bg2.jpg");
+  background-image: url("images/714520.png");
   padding-top: 23%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#name{
+#name {
   font-size: 80px;
-   text-shadow: 4px 4px black;
+  text-shadow: 4px 4px black;
 }
 
-.typer{
+.typer {
   font-size: 50px;
   text-shadow: 4px 4px black;
 }
-.desc{
+.desc {
   font-size: 25px;
 }
-.down{
+.down {
   font-size: 50px;
 }
 
-.txt-type>.txt{
-
+.txt-type > .txt {
   margin-left: px;
-  border-right: 0.3rem solid #FFF;
+  border-right: 0.3rem solid #fff;
 }
 
-.link{
-	text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
-.skill_image{
-	height: 100px;
-	width: 100px;
+.skill_image {
+  height: 100px;
+  width: 100px;
 }
 
-.invert_effect { 
-            filter: invert(100%); 
+.invert_effect {
+  filter: invert(100%);
 }
-.sql_width{
+.sql_width {
   width: 105px;
-} 
+}
 
-.social{
+.social {
   margin: 10px;
 }
 
-.about_me{
+.about_me {
   font-size: 22px;
-  color: #D3D3D3 ;
+  color: #d3d3d3;
 }
-.projects{
- background-color: black;
+.projects {
+  background-color: black;
 }
-.c_title{
+.c_title {
   font-size: 31px;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-  
-  .index{
+  .index {
     background-color: black;
   }
-  #name{
+  #name {
     font-size: 40px;
   }
-  .typer{
+  .typer {
     font-size: 40px;
   }
-  .desc{
+  .desc {
     font-size: 18px;
   }
-  .about_me{
+  .about_me {
     font-size: 18px;
     text-align: justify;
   }
-  .nav_right{
+  .nav_right {
     margin-left: 0px;
     margin-right: 1px;
   }
 
-  .card_width{
+  .card_width {
     width: 28rem;
   }
-  iframe{
+  iframe {
     width: 446px;
-
   }
 }
-
